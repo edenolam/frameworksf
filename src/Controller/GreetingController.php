@@ -13,4 +13,13 @@ class GreetingController{
         //renvoi response
         return new Response(ob_get_clean());
     }
+
+    public function bye(): Response
+    {
+        // integrer du html
+        ob_start();
+        include __DIR__ . '/../pages/bye.php';
+        //renvoi response
+        return new Response(ob_get_clean());
+    }
 }

@@ -37,7 +37,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
       <div class="container-fluid">
-          <a class="navbar-brand" href="#">Top navbar</a>
+          <a class="navbar-brand" href="/">Top navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -53,7 +53,7 @@
                       <a class="nav-link" href="/contact">Contact</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      <a class="nav-link" href="/bye">bye</a>
                   </li>
               </ul>
           </div>
