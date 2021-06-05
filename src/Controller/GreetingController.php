@@ -4,7 +4,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class GreetingController{
-    public function hello(Request $request): Response
+    public function hello(Request $request, $name, $age): Response
     {
         $name = $request->attributes->get('name');
         // integrer du html
