@@ -17,9 +17,8 @@ $routes->add('contact', new Route('/contact', [
     '_controller' => 'App\Controller\PageController::contact'
 ]));
 
-$routes->add('hello', new Route('/hello/{name}/{age}', [
+$routes->add('hello', new Route('/hello/{name}', [
     'name' => 'Mec',
-    'age' => "l'age que tu as",
     '_controller' => 'App\Controller\GreetingController::hello'
 ]));
 
